@@ -27,7 +27,7 @@ jobs:
       run: |
         ls
         pwd
-        wget ${{github.event.inputs.RECOVERY_URL }} -o r.img
+        wget ${{github.event.inputs.RECOVERY_URL }} -o /home/runner/work/Patch-Recovery/Patch-Recovery/recovery.img
 
     - name: Patch Process-1
       run: |
